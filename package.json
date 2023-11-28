@@ -23,17 +23,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+    "url": "git+https://github.com/jmhr0/diw_sitio_Rogelio_Villaverde.git"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Juan Manuel Herrera Ramirez",
+    "email": "jherram0603@g.educaand.es"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues"
+    "url": "https://github.com/jmhr0/diw_sitio_Rogelio_Villaverde"
   },
-  "homepage": "https://github.com/uoc-advanced-html-css/uoc-boilerplate#readme",
+  "homepage": "https://github.com/jmhr0/diw_sitio_Rogelio_Villaverde#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
     "autoprefixer": "^10.4.15",
