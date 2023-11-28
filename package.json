@@ -1,0 +1,47 @@
+{
+  "name": "uoc-boilerplate",
+  "version": "3.7.0",
+  "private": true,
+  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "scripts": {
+    "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
+    "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
+    "clean": "rimraf dist .cache .cache-loader .parcel-cache",
+    "dev": "npm-run-all clean parcel:serve",
+    "build": "npm-run-all clean parcel:build",
+    "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'"
+  },
+  "web": "dist/index.html",
+  "targets": {
+    "web": {
+      "context": "browser",
+      "publicUrl": "./",
+      "engines": {
+        "browsers": "last 2 versions, > 0.5%, not dead"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+  },
+  "author": {
+    "name": "Jordi Tarrida",
+    "email": "jorditarrida@uoc.edu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues"
+  },
+  "homepage": "https://github.com/uoc-advanced-html-css/uoc-boilerplate#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "autoprefixer": "^10.4.15",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.9.3",
+    "postcss-preset-env": "^9.1.1",
+    "posthtml-include": "^1.7.4",
+    "rimraf": "^5.0.1",
+    "sharp": "0.31.1"
+  }
+}
