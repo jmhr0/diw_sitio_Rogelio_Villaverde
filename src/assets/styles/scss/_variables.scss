@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Lemonade';
+    src: url('../../fonts/lemonade.ttf') format('truetype'); // Ajusta la extensión del archivo según el tipo de fuente
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Lugrasimo';
+    src: url('../../fonts/Lugrasimo-Regular.ttf') format('truetype'); // Ajusta la extensión del archivo según el tipo de fuente
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@mixin tipografiaTitulos {
+	font-family: "Lemonade", sans-serif;
+}
+
+@mixin tipografiaTextos {
+	font-family: "Lugrasimo", serif;
+}
+
+@mixin cambiarFondoYLetra($colorNuevoFondo: #FFFFFF, $colorNuevoLetra: #000000) {
+	background-color: $colorNuevoFondo;
+	color: $colorNuevoLetra;
+}
+
+//Funcion para establecer grid
+@mixin establecerGrid($Ncolumnas: 12) {
+	display: grid;
+	grid-template-columns: repeat($Ncolumnas, 1fr);
+}
+
+@mixin centrar {
+	margin-left: auto;
+	margin-right: auto;
+}
