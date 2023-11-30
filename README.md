@@ -6,7 +6,8 @@ Rogelio Villaverde Campos es una figura altamente respetada y querida a nivel na
 
 ### *Tipografía:*
 - *Con Serifa:* Lugrasimo
-  ![Lugrasimo](https://www.cufonfonts.com/images/thumb/107399/lugrasimo-741x415-1784c2a6b7.jpg)
+
+  ![Lugrasimo](https://www.cufonfonts.com/images/thumb/107399/lugrasimo-741x415-1784c2a6b7.jpg){width=50%}{height=50%}
 - *Sin Serifa:* Lemonada
 [img]
 
