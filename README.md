@@ -5,10 +5,10 @@
 Rogelio Villaverde Campos es una figura altamente respetada y querida a nivel nacional en el ámbito del reciclaje y el respeto al medio ambiente. Su compromiso con la sostenibilidad lo ha llevado a dirigir una pequeña empresa dedicada a la recolección de plásticos y otros elementos reciclables. Estos materiales son llevados a su planta de reciclado, donde se transforman en productos sostenibles.
 
 ### *Público Objetivo*
-
+El público objetivo de esta web serán personas que conozcan a Rogelio y quieran apoyarlo, más otras personas que estén interesadas en comprar objetos reciclados o quieren reducir su huella de carbono.
 
 ### *Tipo de web*
-
+La página web de Rogelio es de tipo E-Commerce es decir, es un sitio web que permite a las personas comprar y vender bienes físicos, servicios y productos digitales a través de Internet en lugar de hacerlo en una ubicación física. 
 
 ### *Elementos de diseño*
 ##### *Gustos y personalidad*
@@ -39,7 +39,11 @@ Rogelio ofrece una amplia variedad de productos sostenibles generados a partir d
 [img]
 
 ### *Wireframes del sitio web*
-![](enlace a los wireframes)
+Landing Page
+![Landing Page](C:\Users\Usuario\Desktop\2o_DAW\DIW\ProyectoRogelio\src\img\WireframingRogelio.png)
+
+Detalles del Producto
+![Detalles del Producto](C:\Users\Usuario\Desktop\2o_DAW\DIW\ProyectoRogelio\src\img\detallesProducto.png)
 
 ### *Proyecto en Figma*
 [Proyecto en Figma](aqui va el enlace)
