@@ -1,0 +1,33 @@
+@import 'variables';
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+header{
+    width: 2000px;
+    height: 231px;
+    background-color: #9BFAB0;
+
+    display: flex;
+    @include centrar();
+
+    div{
+        display: flex;
+        align-items: center;
+        margin-left: 20px; // Este margen separa la imagen del span
+    }
+    
+    img{
+        width: 169px;
+        height: 161px;
+        border-radius: 100%;
+        margin-bottom: 20px;
+    }
+    
+    span{
+        font-size: 48px;
+        position: relative;
+    }
+}

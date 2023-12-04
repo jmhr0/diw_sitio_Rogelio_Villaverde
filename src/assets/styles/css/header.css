@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Lemonade";
+  src: url("../../fonts/lemonade.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lugrasimo";
+  src: url("../../fonts/Lugrasimo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  width: 2000px;
+  height: 231px;
+  background-color: #9BFAB0;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+header div {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+header img {
+  width: 169px;
+  height: 161px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+header span {
+  font-size: 48px;
+  position: relative;
+}
+
+/*# sourceMappingURL=header.css.map */
