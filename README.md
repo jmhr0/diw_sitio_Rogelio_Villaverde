@@ -39,7 +39,8 @@ Rogelio ofrece una amplia variedad de productos sostenibles generados a partir d
 [img]
 
 ### *Wireframes del sitio web*
-![](enlace a los wireframes)
+
+![Detalles del Producto](C:\Users\Usuario\Desktop\2o_DAW\DIW\ProyectoRogelio\src\img\WireframeRogelio.pdf)
 
 ### *Proyecto en Figma*
 [Proyecto en Figma](aqui va el enlace)
