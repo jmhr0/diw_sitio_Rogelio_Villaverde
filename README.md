@@ -36,20 +36,20 @@ Lemonada
 
 ### *Colores de la web*
 Rogelio ofrece una amplia variedad de productos sostenibles generados a partir de materiales reciclados. La paleta de colores utilizada en su página web refleja su compromiso con la ecología, utilizando tonos de verdes inspirados en la naturaleza.
-![Paleta de colores](src\assets\imgReadme\Colores.png)
+![Paleta de colores](https://raw.githubusercontent.com/jmhr0/diw_sitio_Rogelio_Villaverde/master/src/assets/imgReadme/Colores.png)
 
 ### *Wireframes del sitio web*
 Landing Page
-![Landing Page](src\assets\imgReadme\LandingPage.png)
+![Landing Page](https://raw.githubusercontent.com/jmhr0/diw_sitio_Rogelio_Villaverde/master/src/assets/imgReadme/LandingPage.png)
 
 Tienda
-![Tienda](src\assets\imgReadme\Tienda.png)
+![Tienda](https://raw.githubusercontent.com/jmhr0/diw_sitio_Rogelio_Villaverde/master/src/assets/imgReadme/Tienda.png)
 
 Donaciones
-![Donaciones](src\assets\imgReadme\Donaciones.png)
+![Donaciones](https://raw.githubusercontent.com/jmhr0/diw_sitio_Rogelio_Villaverde/master/src/assets/imgReadme/Donaciones.PNG)
 
 Detalles del Producto
-![Detalles del Producto](src\assets\imgReadme\detallesProducto.PNG)
+![Detalles del Producto](https://raw.githubusercontent.com/jmhr0/diw_sitio_Rogelio_Villaverde/master/src/assets/imgReadme/detallesProducto.PNG)
 
 ### *Lenguajes de programación usados*
 Para hacer la página web de Rogelio hemos usado:
