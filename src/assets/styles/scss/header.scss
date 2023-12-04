@@ -1,33 +1,79 @@
-@import 'variables';
-
 body{
-    margin: 0;
+    margin: 0px;
     overflow: hidden;
 }
 
 header{
+    position: absolute;
     width: 2000px;
     height: 231px;
-    background-color: #9BFAB0;
-
-    display: flex;
-    @include centrar();
-
-    div{
-        display: flex;
-        align-items: center;
-        margin-left: 20px; // Este margen separa la imagen del span
-    }
+    left: 0px;
+    top: 0px;
     
-    img{
-        width: 169px;
-        height: 161px;
-        border-radius: 100%;
-        margin-bottom: 20px;
+    background: #9BFAB0;
     }
     
     span{
-        font-size: 48px;
-        position: relative;
+    
+    position: absolute;
+    width: 673px;
+    height: 161px;
+    left: 600px;
+    top: 17px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
     }
-}
+    
+    
+    .logo{
+    
+    position: absolute;
+    width: 169px;
+    height: 161px;
+    left: 56px;
+    top: 0px;
+    border-radius: 100px;
+    }
+    
+    .carrito{
+    
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 1860px;
+    top: 64px;
+    
+    }
+    .buscador{
+    
+    position: absolute;
+    width: 201px;
+    height: 50px;
+    left: 1646px;
+    top: 56px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+    border-radius: 100px;
+    }
+    
+    
+    
