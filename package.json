@@ -25,9 +25,13 @@
     "type": "git",
     "url": "git+https://github.com/jmhr0/diw_sitio_Rogelio_Villaverde.git"
   },
-  "author": {
+  "author1": {
     "name": "Juan Manuel Herrera Ramirez",
     "email": "jherram0603@g.educaand.es"
+  },
+  "author2": {
+    "name": "Antonio Jesús Téllez Perdigones",
+    "email": "atelper1005@g.educaand.es"
   },
   "license": "MIT",
   "bugs": {
