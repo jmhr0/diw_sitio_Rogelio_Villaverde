@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <link rel="stylesheet" href="./assets/styles/css/styles_donaciones.css">
+</head>
+<body>
+    <include src="./views/header.html"></include>
+    <div class="main">
+        <form class="form">
+        <div>
+            <label htmlFor="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname"/>
+        </div>
+        <div>
+            <label htmlFor="lname">Apellidos:</label>
+            <input type="text" id="lname" name="lname"/>
+        </div>
+        <div>
+            <label htmlFor="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email"/>
+        </div>
+        <div>
+            <label htmlFor="message">Mensaje (Opcional):</label>
+            <textarea id="message" name="message" placeholder="Escriba su mensaje aquí..."></textarea>
+        </div>
+        <div>
+            <label htmlFor="paymentMethod">Método de Pago:</label>
+            <select id="paymentMethod" name="paymentMethod">
+            <option value="creditCard">Tarjeta de Crédito</option>
+            <option value="paypal">PayPal</option>
+            <option value="cash">Efectivo</option>
+            </select>
+        </div>
+        <div>
+            <label htmlFor="amount">Cantidad:</label>
+            <input type="number" id="amount" name="amount"/>
+        </div>
+        <button type="submit" value="Enviar">Donar</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <include src="./views/footer.html"></include>
+</footer>
+</html>

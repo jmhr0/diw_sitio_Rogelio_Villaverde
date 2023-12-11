@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link rel="stylesheet" href="./assets/styles/css/styles_detalles.css">
+</head>
+<body>
+    <include src="./views/header.html"></include>
+    
+    <div class="main">
+        <div class="product-details">
+          <div class="product-image">
+            <img src="imagen_producto.jpg" alt="Producto">
+            <div class="actions">
+              <button class="like-button">&#x2665; Me gusta</button>
+              <button class="bookmark-button">&#128278; Marcar</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h1>Nombre del Producto</h1>
+            <p class="description">Descripción detallada del producto.</p>
+            <div class="perspectives">
+              <h2>Perspectivas del Producto</h2>
+              <!-- Aquí puedes poner imágenes de distintas perspectivas del producto -->
+              <img src="perspectiva1.jpg" alt="Perspectiva 1">
+              <img src="perspectiva2.jpg" alt="Perspectiva 2">
+              <img src="perspectiva3.jpg" alt="Perspectiva 3">
+            </div>
+            <div class="related-products">
+              <h2>Productos Relacionados</h2>
+              <!-- Aquí puedes listar otros productos relacionados -->
+              <ul>
+                <li>Producto Relacionado 1</li>
+                <li>Producto Relacionado 2</li>
+                <li>Producto Relacionado 3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cart">
+          <h2>Carro de Compra</h2>
+          <!-- Aquí se mostrarán los productos añadidos al carro -->
+          <ul class="cart-items">
+            <!-- Ejemplo de un ítem en el carro -->
+            <li>Nombre del Producto - $XX.XX</li>
+          </ul>
+          <div class="cart-total">
+            <span>Total:</span>
+            <span>$XX.XX</span>
+          </div>
+          <div class="cart-buttons">
+            <button class="buy-button">Comprar</button>
+            <button class="cancel-button">Cancelar</button>
+          </div>
+        </div>
+      </div>
+</body>
+<footer>
+    <include src="./views/footer.html"></include>
+</footer>
+</html>
