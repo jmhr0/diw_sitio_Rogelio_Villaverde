@@ -14,13 +14,12 @@ h1,
 h2,
 h3,
 h4,
-div,
 a {
   font-family: "Lemonade", sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lugrasimo", serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -45,9 +44,8 @@ body {
   border-radius: 8px;
 }
 .main .actions {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+  position: relative;
+  margin-left: 280px;
   display: flex;
   gap: 10px;
 }
@@ -59,6 +57,12 @@ body {
   padding: 8px;
   cursor: pointer;
 }
+.main .actions .like-button:hover {
+  background-color: #fc4b4b;
+}
+.main .actions .bookmark-button:hover {
+  background-color: #c4c0c0;
+}
 .main .product-info {
   padding: 0 20px;
 }
@@ -68,10 +72,16 @@ body {
 .main .product-info .description {
   margin-bottom: 20px;
 }
-.main .product-info .perspectives img {
-  max-width: 100%;
-  height: auto;
+.main .product-info .related-products img {
+  max-width: 100px;
+  height: 100px;
   margin-bottom: 10px;
+  border-radius: 25%;
+}
+.main .product-info .related-products img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .main .product-info .related-products ul {
   list-style: none;
@@ -118,9 +128,11 @@ body {
 .main .cart .cancel-button {
   background-color: #e74c3c;
 }
-.main .cart .buy-button:hover,
-.main .cart .cancel-button:hover {
+.main .cart .buy-button:hover {
   background-color: #45a049;
+}
+.main .cart .cancel-button:hover {
+  background-color: #c43c35;
 }
 
 /*# sourceMappingURL=styles_detalles.css.map */
