@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Lemonade", sans-serif;
+}
+
+.zonaNav {
+  background-color: #1976d2;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zonaNav .zonaNav__div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.zonaNav .zonaNav__div .div__a {
+  height: 95%;
+  border: 1px solid black;
+  border-radius: 1.5%;
+  justify-content: center;
+  align-items: center;
+}
+.zonaNav .zonaNav__div .div__a:hover {
+  cursor: pointer;
+}
+.zonaNav .zonaNav__div a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.zonaNav .zonaNav__div a:active {
+  background-color: aquamarine;
+  color: #fff;
+}
+
+/*# sourceMappingURL=zonaNav.css.map */
