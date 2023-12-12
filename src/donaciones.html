@@ -10,6 +10,7 @@
     <include src="./views/header.html"></include>
     <div class="main">
         <form class="form">
+            <h2>Datos del Donante</h2>
         <div>
             <label htmlFor="fname">Nombre:</label>
             <input type="text" id="fname" name="fname" required/>
@@ -28,12 +29,26 @@
             maxlength="200"></textarea>
         </div>
         <div>
-            <label htmlFor="paymentMethod">Método de Pago:</label>
-            <select id="paymentMethod" name="paymentMethod" required>
-            <option value="creditCard">Tarjeta de Crédito</option>
-            <option value="paypal">PayPal</option>
-            <option value="cash">Efectivo</option>
-            </select>
+            <h2>Información de Pago</h2>
+            <label htmlFor="paymentType">Tipo de Tarjeta:</label>
+                <select name="card_type" id="card_type" required>
+                    <option value="" selected disabled>--Selecciona tipo de pago--</option>
+                    <option value="visa">Visa</option>
+                    <option value="paypal">Paypal</option>
+                    <option value="mastercard">MasterCard</option>
+                </select>
+        </div>
+        <div>
+            <label htmlFor="card_number">Número de Tarjeta:</label>
+            <input type="number" name="card_number" id="card_number" required>
+        </div>
+        <div>
+            <label htmlFor="exp_date">Fecha de Caducidad:</label>
+            <input type="date" name="exp_date" id="exp_date" required>
+        </div>
+        <div>
+            <label htmlFor="cvv">CVV:</label>
+            <input type="password" name="cvv" id="cvv" maxlength="3" required>
         </div>
         <div>
             <label htmlFor="amount">Cantidad(€):</label>
