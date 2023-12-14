@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Lemonade";
+  src: url("../../fonts/lemonade.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lugrasimo";
+  src: url("../../fonts/Lugrasimo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=styles_index.css.map */
