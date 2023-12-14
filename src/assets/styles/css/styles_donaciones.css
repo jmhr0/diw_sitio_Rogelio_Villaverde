@@ -19,20 +19,24 @@ a {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
   background-color: #64c27b;
 }
 
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
-  background-color: #9bfab0;
+  background-color: #faec9b;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 .main .form {
   width: 350px;
