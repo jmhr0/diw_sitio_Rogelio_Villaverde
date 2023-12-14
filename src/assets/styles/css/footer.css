@@ -6,6 +6,9 @@ footer {
   padding: 20px;
   justify-content: center;
   height: 206px;
+  width: 2000px;
+  position: absolute;
+  bottom: 0px;
 }
 
 .footer__seccion1 {

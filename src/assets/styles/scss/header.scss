@@ -4,11 +4,10 @@ body{
 }
 
 header{
-    position: absolute;
+    position: relative;
     width: 2000px;
     height: 231px;
-    left: 0px;
-    top: 0px;
+    top: 0;
     
     background: #9BFAB0;
     display: flex;
