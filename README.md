@@ -1,4 +1,4 @@
-# Hoja de estilos para la pagina de Rogelio Villaverde Campos 
+# Hoja de estilos para la página de Rogelio Villaverde Campos 
 #### Por Juan Manuel Herrera y Antonio Jesús Téllez
 
 ## Sobre Rogelio Villaverde

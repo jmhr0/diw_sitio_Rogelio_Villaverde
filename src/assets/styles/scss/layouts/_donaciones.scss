@@ -6,31 +6,26 @@ a {
     @include tipografiaTitulos();
 }
 
-.container {
+.donaciones_container {
     height: 100%;
-    //z-index: 0;
-    //position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     
-
+    background-image: url('src\assets\images\bg-donaciones.png');
+    background-repeat: no-repeat;
+    background-size: cover;             //Esto es una prueba, usar si se ve bien
 }
 
-.main {
-    background-color: #faec9b;
+.donaciones_main {
+    background-color: #9bfab0;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
 
-    //display: block;
-    //margin: 0 auto;
-
     .form {
-        //display: block;
-        //margin: 0 auto;
         width: 350px;
         padding: 20px;
         background-color: #d0fdd7;
