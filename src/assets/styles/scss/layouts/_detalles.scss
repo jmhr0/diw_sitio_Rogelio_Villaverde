@@ -6,13 +6,6 @@ a {
 	@include tipografiaTitulos();
 }
 
-body {
-    @include tipografiaTextos();
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
 .main {
     max-width: 1200px;
     margin: 0 auto;
