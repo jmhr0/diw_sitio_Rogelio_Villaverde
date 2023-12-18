@@ -12,9 +12,11 @@ a {
     justify-content: center;
     align-items: center;
     
-    background-image: url('../../images/bg-donaciones.png');
-    background-repeat: no-repeat;
-    background-size: cover;             //Esto es una prueba, usar si se ve bien
+    background-color: #64c27b;
+    // background-image: url('../../images/bg-donaciones.png');
+    // background-repeat: no-repeat;
+    // background-size: cover;             //Esto es una prueba, usar si se ve bien
+    // background-position: center;
 }
 
 .donaciones_main {
@@ -55,6 +57,68 @@ a {
             width: 100%;
         }
     }
+}
 
+@media screen and (max-width: 768px) {
     
+    h1,
+h2,
+h3,
+h4,
+a {
+    @include tipografiaTitulos();
+}
+
+.donaciones_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #64c27b;
+    // background-image: url('../../images/bg-donaciones.png');
+    // background-repeat: no-repeat;
+    // background-size: cover;             //Esto es una prueba, usar si se ve bien
+    // background-position: center;
+}
+
+.donaciones_main {
+    background-color: #9bfab0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+    .form {
+        width: 350px;
+        padding: 20px;
+        background-color: #d0fdd7;
+    }
+
+    div {
+        margin-bottom: 10px;
+
+        label {
+            @include tipografiaTitulos();
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        input {
+            @include tipografiaTextos();
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+            max-width: 350px;
+        }
+
+        select {
+            width: 100%;
+        }
+    }
+}
 }
