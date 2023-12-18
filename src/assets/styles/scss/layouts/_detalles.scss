@@ -7,11 +7,12 @@ a {
 }
 
 .detalles_main {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    background-color: #ece9e9;
 
     .product-details {
         display: flex;
@@ -19,6 +20,7 @@ a {
       
       .product-image {
         position: relative;
+        margin-left: 380px;
       }
       
       .product-image img {
@@ -39,6 +41,7 @@ a {
             border: 1px solid #ccc;
             border-radius: 50%;
             padding: 8px;
+            
             cursor: pointer;
         }
 
@@ -54,18 +57,20 @@ a {
       .product-info {
         padding: 0 20px;
 
+
         .product-info h1 {
             font-size: 24px;
           }
           
           .description {
-            margin-bottom: 20px;
+            margin-bottom: 50px;
           }
           
           .related-products img {
+            min-width: 90px;
             max-width: 100px;
             height: 100px;
-            margin-bottom: 10px;
+            margin: 0 3px ;
             border-radius: 25%;
           }
 
@@ -92,9 +97,7 @@ a {
         border-radius: 8px;
         padding: 20px;
 
-        .cart h2 {
-            text-align: center;
-          }
+        left: 0;
           
           .cart-items {
             list-style: none;
@@ -103,12 +106,13 @@ a {
           
           .cart-items li {
             margin-bottom: 10px;
+            height: 20vh;
           }
           
           .cart-total {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
           }
           
           .cart-buttons {
@@ -142,38 +146,39 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  
-  h1,
-h2,
-h3,
-h4,
-a {
-	@include tipografiaTitulos();
-}
 
 .detalles_main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 
     .product-details {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
       
       .product-image {
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 40vw;
       }
       
       .product-image img {
         max-width: 100%;
         height: auto;
         border-radius: 8px;
+
       }
       
       .actions {
-        position: relative;
+        display: flex;
         margin-left: 280px;
         display: flex;
         gap: 10px;
@@ -209,7 +214,7 @@ a {
           
           .related-products img {
             max-width: 50px;
-            height: 50px;
+            height: 75px;
             margin-bottom: 10px;
             border-radius: 25%;
           }
