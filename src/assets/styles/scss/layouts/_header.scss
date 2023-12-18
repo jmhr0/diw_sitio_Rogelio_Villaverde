@@ -28,6 +28,7 @@ header{
         text-align: center;
         
         color: #000000;
+        @include tipografiaTitulos();
         }
         
         
@@ -46,7 +47,7 @@ header{
         position: absolute;
         width: 31px;
         height: 31px;
-        left: 1860px;
+        left: 1810px;
         top: 64px;
         
         }
@@ -120,13 +121,13 @@ header{
             
             .carrito{
             
-            position: relative;
-            width: 31px;
-            height: 31px;
-            left: 1860px;
-            top: 64px;
-            
-            }
+                position: relative;
+                width: 31px;
+                height: 31px;
+                left: 1500px;
+                top: 64px;
+                
+                }
             .buscador{
             
             position: relative;

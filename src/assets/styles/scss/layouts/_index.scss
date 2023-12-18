@@ -2,16 +2,38 @@ body{
     margin: 0;
 }
 
-.index_Main{
+.index__main{
+    background-color: #ece9e9;
+}
+
+.main__Container{
 background-color: #64c27b ;
-margin-left: 39.7vh;
-margin-right: 39.7vh;
+justify-content: center;
+margin-right: 18.8%;
+margin-left: 18.8%;
 display: flex;
 justify-content: space-around;
 }
 .main_Seccion1,
 .main_Seccion2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding-left: 10vh;
+    padding-right: 10vh;
 h1{
     @include tipografiaTitulos();
+    text-decoration: underline;
+    font-size: 5vh;
 }
+p{
+    font-size: 1.5vh;
+    @include tipografiaTextos();
+}
+}
+.main_Seccion1 {
+    border-right: 2px solid black;
 }

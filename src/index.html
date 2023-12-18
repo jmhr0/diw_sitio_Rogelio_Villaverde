@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page</title>
-    <link rel="stylesheet" href="./assets/styles/scss/main.scss">
-    
-</head>
-<body>
-    <header>
-        <include src="./views/header.html"></include>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing page</title>
+        <link rel="stylesheet" href="./assets/styles/scss/main.scss" />
+    </head>
+    <body>
+        <header>
+            <include src="./views/header.html"></include>
+        </header>
         <include src="./views/zonaNav.html"></include>
-    <div class="index_Main">
-        <div class="main_Seccion1">
-            <h1>Conocenos</h1>
+        <div class="index__main">
+            <div class="main__Container">
+                <div class="main_Seccion1">
+                    <h1>Conócenos</h1>
+                    <p>
+                        <b
+                            >"Nuestro equipo está formado por apasionados
+                            defensores de la sostenibilidad y el reciclaje.
+                            Nuestra diversa familia de expertos en medio
+                            ambiente, diseñadores creativos y entusiastas del
+                            reciclaje trabaja incansablemente para llevar
+                            productos reciclables de calidad a tu vida diaria.
+                            Con años de experiencia y un compromiso
+                            inquebrantable con nuestro planeta, estamos aquí
+                            para hacer del mundo un lugar mejor.</b
+                        >
+                    </p>
+                    <img src="assets/images/equipo.png" />
+                </div>
+                <div class="main_Seccion2">
+                    <h1>Nuestra misión</h1>
+                    <p>
+                        <b
+                            >"Nuestra misión es liderar el camino hacia un
+                            futuro más verde y sostenible. En Rogeciclaje, creemos en la importancia de reducir
+                            nuestra huella ecológica y proteger el planeta para
+                            las generaciones futuras. Nos comprometemos a
+                            ofrecer productos reciclables y ecoamigables de la
+                            más alta calidad, empoderando a nuestros clientes
+                            para tomar decisiones responsables y respetuosas con
+                            el medio ambiente. Juntos, estamos transformando la
+                            manera en que consumimos y cuidamos de nuestro
+                            hogar, la Tierra.</b
+                        >
+                    </p>
+                    <img src="assets/images/bosque.png" />
+                </div>
+            </div>
         </div>
-        <div class="main_Seccion2">
-            <h1>Nuestra mision</h1>
-        </div>
-    </div>
-
-    
-</body>
-<footer>
-<include src="./views/footer.html"></include>
-</footer>
+        <footer>
+            <include src="./views/footer.html"></include>
+        </footer>
+    </body>
 </html>

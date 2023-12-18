@@ -12,12 +12,90 @@
     </header>
     <include src="./views/zonaNav.html"></include>
 
-    <div>Macetas vidrio</div>
-    <a href="detalles.html"><div>Llantas</div></a>
-    <div>Estantería pales</div>
-    
+    <div class="tienda__main-Container">
+        <div class="tienda__sidebar">
+            <div class="enlaces-laterales">
+                <a href="#" class="enlace">Últimas novedades</a>
+                <a href="#" class="enlace">Lo más vendido</a>
+                <a href="#" class="enlace">Tendencias</a>
+            </div>
+
+            <div class="filtros">
+                <label for="material">Material:</label>
+                <select id="material">
+                    <option value="material1">Material 1</option>
+                    <option value="material2">Material 2</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+
+                <label for="tamanio">Tamaño:</label>
+                <select id="tamanio">
+                    <option value="tam1">Tamaño 1</option>
+                    <option value="tam2">Tamaño 2</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+
+                <label for="categoria">Categoría:</label>
+                <select id="categoria">
+                    <option value="cat1">Categoría 1</option>
+                    <option value="cat2">Categoría 2</option>
+                    <!-- Agrega más opciones según sea necesario -->
+                </select>
+            </div>
+        </div>
+
+        <div class="tienda__main-Filtro">
+            <!-- Contenido de la sección de tienda -->
+            <div class="productos">
+                <!-- Primer producto con enlace a detalles.html -->
+                <a href="detalles.html" class="producto">
+                    <img src="assets/images/llantas.jpg" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                </a>
+
+                <!-- Productos adicionales ordenados de manera ascendente -->
+                <a href="detalles.html" class="producto">
+                    <img src="assets/images/sillas1.jpg" alt="Producto 2">
+                    <h3>Producto 2</h3>
+                </a>
+
+                <a href="detalles.html" class="producto">
+                    <img src="assets/images/sillas2.jpg" alt="Producto 3">
+                    <h3>Producto 3</h3>
+                </a>
+
+                <a href="detalles.html" class="producto">
+                    <img src="assets/images/macetas.jpg" alt="Producto 4">
+                    <h3>Producto 4</h3>
+                </a>
+
+                <a href="detalles.html" class="producto">
+                    <img src="assets/images/macetas.jpg" alt="Producto 5">
+                    <h3>Producto 5</h3>
+                </a>
+
+                <a href="detalles.html" class="producto">
+                    <img src="assets/images/cubos.jpg" alt="Producto 6">
+                    <h3>Producto 6</h3>
+                </a>
+
+                <a href="detalles.html" class="producto">
+                    <img src="assets/images/jarra.jpg" alt="Producto 7">
+                    <h3>Producto 7</h3>
+                </a>
+
+                <a href="detalles.html" class="producto">
+                    <img src="assets/images/macetas.jpg" alt="Producto 8">
+                    <h3>Producto 8</h3>
+                </a>
+                <!-- Fin de los productos adicionales -->
+            </div>
+            <!-- Fin del contenido de la sección de tienda -->
+        </div>
+    </div>
+
+    <footer>
+        <include src="./views/footer.html"></include>
+    </footer>
 </body>
-<footer>
-    <include src="./views/footer.html"></include>
-</footer>
 </html>
