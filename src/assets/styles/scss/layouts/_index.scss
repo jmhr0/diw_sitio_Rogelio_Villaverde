@@ -1,3 +1,17 @@
 body{
     margin: 0;
 }
+
+.index_Main{
+background-color: #64c27b ;
+margin-left: 39.7vh;
+margin-right: 39.7vh;
+display: flex;
+justify-content: space-around;
+}
+.main_Seccion1,
+.main_Seccion2{
+h1{
+    @include tipografiaTitulos();
+}
+}
