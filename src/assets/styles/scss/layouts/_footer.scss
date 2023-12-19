@@ -62,14 +62,16 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  footer{
+    display: none;
+  }
   .footer__seccion1,
   .footer__seccion2,
   .footer__seccion3 {
     grid-column: 1/13;
     text-align: center;
     margin-bottom: 10px;
-  }
-
+  };
   .footer__seccion4 {
     right: 0;
     bottom: 0;
