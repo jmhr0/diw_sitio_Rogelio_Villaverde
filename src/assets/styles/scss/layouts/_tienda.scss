@@ -72,3 +72,17 @@ body {
     }
   }
   
+  @media screen and (max-width: 768px) {
+    .tienda__main-Container {
+      flex-direction: column;
+    }
+  
+    .tienda__sidebar,
+    .tienda__main-Filtro {
+      width: 100%;
+    }
+  
+    .productos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }

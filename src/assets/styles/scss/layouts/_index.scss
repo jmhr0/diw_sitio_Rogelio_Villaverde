@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 
 .index__main{
@@ -37,3 +38,17 @@ p{
 .main_Seccion1 {
     border-right: 2px solid black;
 }
+
+@media screen and (max-width: 768px) {
+    .main__Container {
+      margin-right: 5%;
+      margin-left: 5%;
+    }
+  
+    .main_Seccion1,
+    .main_Seccion2 {
+      padding-left: 5vh;
+      padding-right: 5vh;
+      border-right: none;
+    }
+  }
